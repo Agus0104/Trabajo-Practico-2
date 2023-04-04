@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Condensed&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif; 
 }
 
 header{
@@ -17,9 +19,9 @@ a{
     color: black;
 }
 .imagenfondo{
-    height: 95vh;
+    height: 93vh;
     position: relative;
-    top: -70px;
+    top: -30px;
     left: 500px;
     display: grid;
     place-items: center;
@@ -95,10 +97,6 @@ a{
     color: #444;
 }
 
-.d1 .d2{
-    width: 100%;
-    height: 100%;
-}
 .box4{
     background-color: rgb(36, 34, 34);
     color: white;
@@ -122,4 +120,28 @@ a{
     left: 81%;
     z-index: -1;
     cursor: pointer;
+}
+
+.numeros{
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0%;
+    
+}
+.num1{
+    font-size: 60px;
+}
+.num2{
+    font-size: 60px;
+}
+.inf{
+    width: 10vh;
+    z-index: -1;
+    height: 14vh;
+    position: absolute;
+    bottom: -18%;
+}
+.infinity{
+    position: absolute;
+    bottom: -19%;
 }
